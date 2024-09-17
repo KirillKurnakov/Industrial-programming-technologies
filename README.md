@@ -16,10 +16,10 @@
 подарки для различных мероприятий (дни рождения, праздники и тд).
 
 Логическая модель базы данных
-![image](https://github.com/user-attachments/assets/7cce08dc-b1bc-44e9-82c5-fbe9c7370ac4)
+![image](https://github.com/user-attachments/assets/c6c2d647-20f1-40be-888e-c577b79fbf40)
 
 Физическая модель базы данных с указанием типов данных атрибутов
-![image](https://github.com/user-attachments/assets/e7abd73a-6acc-4c1a-a943-47155c129c4e)
+![image](https://github.com/user-attachments/assets/581dd80d-5185-4e05-b7a3-e5231da28b16)
 
 Описание сущностей
  1. category (Категория товара) - сущность, которая представляет информацию о категории товара (кружка, тетрадь, блокнот и тд).
