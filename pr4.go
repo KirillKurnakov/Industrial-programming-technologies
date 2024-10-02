@@ -9,8 +9,6 @@ import (
 func sumDigits() {
 	fmt.Println(" Сумма цифр числа ")
 	var number int
-	//fmt.Print("Введите 4-значное число: ")
-	//fmt.Scan(&number)
 	number=1234
 	fmt.Println("Сумма цифр числа: ", number%10 + (number/10)%10 + 
 	(number/100)%10 + (number/1000)%10)
@@ -19,12 +17,8 @@ func sumDigits() {
 func temperature() {
 	fmt.Println(" Преобразование температуры ")
 	var tempC,tempF float32
-	//fmt.Println("Введите температуру в Цельсиях")
-	//fmt.Scan(&tempC)
 	tempC=34
 	fmt.Println("Температура в Цельсиях: ", tempC, " Температура в Фаренгейтах: ", ((tempC*9/5)+ 32))
-	//fmt.Println("Введите температуру в Фаренгейтах")
-	//fmt.Scan(&tempF)
 	tempF=70
 	fmt.Print("Температура в Фаренгейтах: ", tempF, " Температура в Цельсиях: ", ((tempF-32)*5/9))
 }
@@ -33,16 +27,6 @@ func temperature() {
 func doubleMassives() {
 	fmt.Println(" Удвоение каждого элемента массива ")
 	var numbers [5] int = [5]int{1,2,3,4,5}
-	/*fmt.Print("Введите 1-ое число: ")
-	fmt.Scan(&numbers[0])
-	fmt.Print("Введите 2-ое число: ")
-	fmt.Scan(&numbers[1])
-	fmt.Print("Введите 3-ое число: ")
-	fmt.Scan(&numbers[2])
-	fmt.Print("Введите 4-ое число: ")
-	fmt.Scan(&numbers[3])
-	fmt.Print("Введите 5-ое число: ")
-	fmt.Scan(&numbers[4])*/
 	fmt.Println("Исходный массив: ", numbers)
 	numbers[0]=numbers[0]*2
 	numbers[1]=numbers[1]*2
@@ -56,11 +40,7 @@ func doubleMassives() {
 func sumString() {
 	fmt.Println(" Объединение строк ")
 	var text,text1 string
-	//fmt.Print("Введите первое слово: ")
-	//fmt.Scan(&text)
 	text="Привет"
-	//fmt.Print("Введите второе слово: ")
-	//fmt.Scan(&text1)
 	text1="Мир!"
 	fmt.Println(text + " " + text1)
 }
@@ -70,15 +50,9 @@ func distanceBtwDot() {
 	fmt.Println(" Расчет расстояния между двумя точками ")
 	var firstKoord [2] int
 	var secondKoord [2] int
-	//fmt.Print("Введите координаты первой точки (x,y): ")
-	//fmt.Scan(&firstKoord[0])
-	//fmt.Scan(&firstKoord[1])
 	firstKoord[0]=1
 	firstKoord[1]=1
 	fmt.Println("Точка 1(x,y): ", firstKoord[0], " ", firstKoord[1])
-	//fmt.Print("Введите координаты второй точки (x,y): ")
-	//fmt.Scan(&secondKoord[0])
-	//fmt.Scan(&secondKoord[1])
 	secondKoord[0]=4
 	secondKoord[1]=5
 	fmt.Println("Точка 2(x,y): ", secondKoord[0], " ", secondKoord[1])
@@ -90,8 +64,6 @@ func distanceBtwDot() {
 func checkEvenOdd() {
 	fmt.Println(" Проверка на четность/нечетность ")
 	var number int
-	//fmt.Print("Введите число: ")
-	//fmt.Scan(&number)
 	number=45
 	fmt.Println("Число: ", number)
 	if number%2==0 {
@@ -105,8 +77,6 @@ func checkEvenOdd() {
 func VisocosYear() {
 	fmt.Println(" Проверка високосного года ")
 	var number int
-	//fmt.Print("Введите год: ")
-	//fmt.Scan(&number)
 	number=2024
 	fmt.Println("Год: ", number)
 	if number%4==0 {
@@ -120,12 +90,6 @@ func VisocosYear() {
 func maxNumber() {
 	fmt.Println(" Определение наибольшего из трех чисел ")
 	var numbers [3] int = [3]int{4,9,7}
-	//fmt.Print("Введите 1-ое число: ")
-	//fmt.Scan(&numbers[0])
-	//fmt.Print("Введите 2-ое число: ")
-	//fmt.Scan(&numbers[1])
-	//fmt.Print("Введите 3-ое число: ")
-	//fmt.Scan(&numbers[2])
 	fmt.Println("Исходный массив: ", numbers)
 	if numbers[0]>numbers[1] && numbers[0] > numbers[2] {
 		fmt.Println("Наибольшее число: ", numbers[0])
@@ -140,8 +104,6 @@ func maxNumber() {
 func ageCheck() {
 	fmt.Println(" Категория возраста ")
 	var number int
-	//fmt.Print("Введите возраст: ")
-	//fmt.Scan(&number)
 	//до 14 - ребенок
 	//от 14 до 18 - подросток
 	//от 18 до 60 - взрослый
@@ -163,8 +125,6 @@ func ageCheck() {
 func check3and5() {
 	fmt.Println(" Проверка делимости на 3 и 5 ")
 	var number int
-	//fmt.Print("Введите число: ")
-	//fmt.Scan(&number)
 	number=15
 	fmt.Println("Число: ", number)
 	if number%3==0 && number%5==0 {
@@ -180,8 +140,6 @@ func factorial() {
 	fmt.Println(" Факториал числа ")
 	var number,finalN int
 	finalN=1
-	//fmt.Print("Введите число для вычисления факториала: ")
-	//fmt.Scan(&number)
 	number=5
 	fmt.Println("Число: ", number)
 	for i:=1; i < (number+1);i++ {
@@ -197,8 +155,6 @@ func fibonachi() {
 	var start1, start2, start3 int
 	start1=0
 	start2=1
-	//fmt.Print("Введите количество чисел Фибоначчи: ")
-	//fmt.Scan(&number)
 	number=7
 	fmt.Println("До числа: ", number)
 	fmt.Print(start1, " ")
@@ -214,16 +170,6 @@ func fibonachi() {
 func reversMassive() {
 	fmt.Println(" Реверс массива ")
 	var numbers [5] int = [5]int{1,2,3,4,5}
-	/*fmt.Print("Введите 1-ое число: ")
-	fmt.Scan(&numbers[0])
-	fmt.Print("Введите 2-ое число: ")
-	fmt.Scan(&numbers[1])
-	fmt.Print("Введите 3-ое число: ")
-	fmt.Scan(&numbers[2])
-	fmt.Print("Введите 4-ое число: ")
-	fmt.Scan(&numbers[3])
-	fmt.Print("Введите 5-ое число: ")
-	fmt.Scan(&numbers[4])*/
 	fmt.Println("Исходный массив: ", numbers)
 	var helper int
 	for i:=0; i<2;i++ {
@@ -239,8 +185,6 @@ func simpleNumber() {
 	fmt.Println(" Поиск простых чисел ")
 	var number,helper int
 	helper=0
-	//fmt.Print("Введите число: ")
-	//fmt.Scan(&number)
 	number=30
 	fmt.Println("До числа: ", number)
 	for j:=2; j <= number; j++ {
@@ -260,16 +204,6 @@ func simpleNumber() {
 func sumMassive() {
 	fmt.Println(" Сумма чисел в массиве ")
 	var numbers [5] int = [5]int{1,2,3,4,5}
-	/*fmt.Print("Введите 1-ое число: ")
-	fmt.Scan(&numbers[0])
-	fmt.Print("Введите 2-ое число: ")
-	fmt.Scan(&numbers[1])
-	fmt.Print("Введите 3-ое число: ")
-	fmt.Scan(&numbers[2])
-	fmt.Print("Введите 4-ое число: ")
-	fmt.Scan(&numbers[3])
-	fmt.Print("Введите 5-ое число: ")
-	fmt.Scan(&numbers[4])*/
 	fmt.Println("Исходный массив: ", numbers)
 	var sum int
 	for i:=0; i < 5; i++ {
