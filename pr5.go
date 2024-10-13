@@ -313,23 +313,23 @@ func Evklid() {
 }
 
 func main() {
-	//systSchil()
-	//SquareUrav()
+	systSchil()
+	SquareUrav()
 	
-	//numbers := []float64{-5, 3, -1, 4, -2, 0, 7}
-	//fmt.Println("Исходный массив: ", numbers)
-	//fmt.Println("Отсортированный массив: ", sortModule(numbers))
+	numbers := []float64{-5, 3, -1, 4, -2, 0, 7}
+	fmt.Println("Исходный массив: ", numbers)
+	fmt.Println("Отсортированный массив: ", sortModule(numbers))
 	
-	//sliyanie()
-	//podStroka()
-	//calc()
-	//fmt.Print(palindrom())
+	sliyanie()
+	podStroka()
+	calc()
+	fmt.Print(palindrom())
 	perecechenieLiniy()
-	//maxLength()
-	//VisocosYear1()
-	//fibonachi1()
-	//simpleNumber1()
-	//ArmstrongNumber()
-	//ReversString()
-	//Evklid()
+	maxLength()
+	VisocosYear1()
+	fibonachi1()
+	simpleNumber1()
+	ArmstrongNumber()
+	ReversString()
+	Evklid()
 }
