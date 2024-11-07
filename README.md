@@ -29,7 +29,7 @@ PUT http: //localhost:8080/items/2
 
 ### Удаление товара
 
-DELETE 
+DELETE http: //localhost:8080/items/2
 
 Отправка DELETE запроса
 ![image](https://github.com/user-attachments/assets/a1aad60f-ad4f-4b0f-9bce-1223b9fc1668)
@@ -37,4 +37,42 @@ DELETE
 Отправка GET запроса для проверки
 ![image](https://github.com/user-attachments/assets/03ca413b-8432-42cc-bf9a-c8c0703f5665)
 
+### Создание нового товара
 
+POST http://localhost:8080/items
+
+Отправка POST запроса
+![image](https://github.com/user-attachments/assets/fad901c9-de8c-4e7b-a219-67a562b92cf5)
+
+Отправка GET запроса для проверки
+![image](https://github.com/user-attachments/assets/c1103245-f907-4f55-ab32-f9687055e0d1)
+
+## Корзина
+### Получение всех товаров из корзины
+
+GET http: //localhost:8080/id/1/basket
+
+![image](https://github.com/user-attachments/assets/d56df080-dcc0-4392-9150-8d3673408600)
+
+### Добавление товара в корзину
+
+POST http: //localhost:8080/id/1/basket
+
+Отправка POST запроса
+![image](https://github.com/user-attachments/assets/720676d3-1b8e-468d-a780-ed28f96985cc)
+
+Отправка GET запроса для проверки
+![image](https://github.com/user-attachments/assets/72f1e6d6-10fd-4093-9e9b-143c279dbe34)
+
+### Удаление товара из корзины
+
+Отправка GET запроса для начального состояния
+![image](https://github.com/user-attachments/assets/420e3607-046a-45bc-9ef1-703c9c3fb100)
+
+
+Отправка DELETE запроса
+![image](https://github.com/user-attachments/assets/e85b587f-e154-433f-a75e-2472d57a6937)
+
+
+Отправка GET запроса для проверки
+![image](https://github.com/user-attachments/assets/5b0490bd-5a00-40b5-8da1-9eba4f99b513)
