@@ -5,7 +5,7 @@
 
 ## Ссылка на код
 
-
+https://github.com/KirillKurnakov/Industrial-programming-technologies/blob/PR_11.11/main.go
 
 ## CRUD для товаров в Интернет-магазине подарков и сувениров
 
