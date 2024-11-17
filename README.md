@@ -3,7 +3,7 @@
 
 ## Практическая работа 9
 ## Аутентификация и авторизация в REST API.  
-Ссылка на код:  
+Ссылка на код:  https://github.com/KirillKurnakov/Industrial-programming-technologies/blob/PR_11.1111/main.go
 
 ### 9.1. Получение токена  
 POST http://localhost:8080/login  
