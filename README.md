@@ -4,7 +4,7 @@
 # Практика 11
 
 ## Ссылка на код
-
+https://github.com/KirillKurnakov/Industrial-programming-technologies/blob/PR_18.11/main.go
 
 ## Получение товаров из корзины
 
