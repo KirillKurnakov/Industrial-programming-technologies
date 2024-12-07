@@ -4,7 +4,7 @@
 # Практическая работа Обработка ошибок, пагинация и фильтрация данных в REST API
 
 ## Ссылка на код
-(Вставить)
+https://github.com/KirillKurnakov/Industrial-programming-technologies/blob/PR_25.11/main.go
 
 ## Обработка ошибок
 ![image](https://github.com/user-attachments/assets/5f49b1e0-55fd-4bd1-a0a5-4b9de7667138)
