@@ -3,7 +3,7 @@
 
 # Практическая работа №13 Асинхронная обработка и задачи в фоновом режиме
 ## Ссылка на код
-
+https://github.com/KirillKurnakov/Industrial-programming-technologies/blob/PR_02.12/main.go
 ## Логирование действий
 ### Выполнение POST запроса
 ![image](https://github.com/user-attachments/assets/9289ea36-ef02-42ee-925c-6360ac096ebb)
